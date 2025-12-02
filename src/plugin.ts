@@ -111,7 +111,7 @@ const payloadAiPlugin =
       const updatedProviders = [
         ...(providers ?? []),
         {
-          path: '@ai-stack/payloadcms/client#InstructionsProvider',
+          path: '@favdevs/payload-ai/client#InstructionsProvider',
         },
       ]
 

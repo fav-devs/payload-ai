@@ -77,13 +77,13 @@ export interface PluginConfig {
   /**
    * Custom action prompts for AI text generation
    * If not provided, uses default prompts
-   * You can access default prompts by importing { defaultPrompts } from '@ai-stack/payloadcms'
+   * You can access default prompts by importing { defaultPrompts } from '@favdevs/payload-ai'
    */
   prompts?: ActionPrompt[]
   /**
    * Custom seed prompt function for generating field-specific prompts
    * If not provided, uses default seed prompt function
-   * You can access default seed prompts by importing { defaultSeedPrompts } from '@ai-stack/payloadcms'
+   * You can access default seed prompts by importing { defaultSeedPrompts } from '@favdevs/payload-ai'
   */
   seedPrompts?: SeedPromptFunction
   uploadCollectionSlug?: CollectionSlug

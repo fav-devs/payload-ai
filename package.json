@@ -1,11 +1,11 @@
 {
-  "name": "@ai-stack/payloadcms",
+  "name": "@favdevs/payload-ai",
   "version": "3.2.22-beta",
   "private": false,
-  "bugs": "https://github.com/ashbuilds/payload-ai/issues",
-  "repository": "https://github.com/ashbuilds/payload-ai",
+  "bugs": "https://github.com/fav-devs/payload-ai/issues",
+  "repository": "https://github.com/fav-devs/payload-ai",
   "license": "MIT",
-  "author": "ashbuilds",
+  "author": "favdevs",
   "type": "module",
   "keywords": [
     "payload",

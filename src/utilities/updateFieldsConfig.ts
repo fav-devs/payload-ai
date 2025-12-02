@@ -58,7 +58,7 @@ export const updateFieldsConfig = (collectionConfig: CollectionConfig | GlobalCo
               clientProps: {
                 schemaPath: currentSchemaPath,
               },
-              path: '@ai-stack/payloadcms/fields#ComposeField',
+              path: '@favdevs/payload-ai/fields#ComposeField',
             },
             ...customField,
           },

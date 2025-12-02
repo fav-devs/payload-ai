@@ -125,7 +125,7 @@ export const instructionsCollection = (pluginConfig: PluginConfig) =>
                 filterByField: 'field-type',
                 options: modelOptions(pluginConfig),
               },
-              path: '@ai-stack/payloadcms/fields#SelectField',
+              path: '@favdevs/payload-ai/fields#SelectField',
             },
           },
         },
@@ -159,7 +159,7 @@ export const instructionsCollection = (pluginConfig: PluginConfig) =>
                 type: 'textarea',
                 admin: {
                   components: {
-                    Field: '@ai-stack/payloadcms/fields#PromptEditorField',
+                    Field: '@favdevs/payload-ai/fields#PromptEditorField',
                   },
                   description: "Click 'Compose' to run this custom prompt and generate content",
                 },
